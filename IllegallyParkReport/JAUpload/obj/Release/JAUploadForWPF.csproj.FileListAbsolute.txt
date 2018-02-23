@@ -1,0 +1,15 @@
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\bin\Release\JAUploadForWPF.exe.config
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\bin\Release\JAUploadForWPF.exe
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\bin\Release\JAUploadForWPF.pdb
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Release\MainWindow.g.cs
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Release\App.g.cs
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Release\JAUploadForWPF_MarkupCompile.cache
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Release\JAUploadForWPF_MarkupCompile.lref
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Release\MainWindow.baml
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Release\JAUploadForWPF.g.resources
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Release\JAUploadForWPF.Properties.Resources.resources
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Release\JAUploadForWPF.csproj.GenerateResource.Cache
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Release\JAUploadForWPF.csproj.CoreCompileInputs.cache
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Release\JAUploadForWPF.exe
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Release\JAUploadForWPF.pdb
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Release\JAUploadForWPF.csprojResolveAssemblyReference.cache

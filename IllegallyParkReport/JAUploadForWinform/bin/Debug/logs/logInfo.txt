@@ -1,0 +1,28 @@
+INFO  2018-01-24 15:24:34,724   140ms loginfo                Info               - 22CC29CB0D590278E8787C03E4F4AD265EC99B2059798A4E0B6A213914CB17E03F918E3F94C4C52A39E82D2BA0580537DF857FAB016487335565C6B51AFA931C8A1F08DDF25F3B9D15049C59EE577A11F4C134AC13243D63EE0558A2B54B57397294EE60F39BD47D853523AA749050368D031E22E269018BA1510D32F724FD3D68F3EA89821370AE325DA09D2554FE6E138CF0486291E548D91D14DBAE18AB3CC6A3D09E78715EAAA3BE2098CE23088C98F207742D76BF72F53AB4C4052A89C99591006FEB128C0124F30966AA2ABCC225E671582453700AF74AEFBEF275F86B58C75D339286F01FD921C972D0D2E7F8CA6B76CD6089E119531E15C44571857954377C7E4CF283A4DB3AB631F19505FA
+INFO  2018-01-25 13:19:57,790   117ms loginfo                Info               - [{"HPHM":"浙A12345","HPYS":"02","JGSJ":"2018-01-25 12:19:57","WFDD":"测试地点","WFLX":"违法停车","XZQH":"310600"},{"HPHM":"浙A12345","HPYS":"02","JGSJ":"2018-01-25 12:19:58","WFDD":"测试地点","WFLX":"违法停车","XZQH":"310600"}]
+INFO  2018-01-25 13:20:00,181  2509ms loginfo                Info               - [{"CWMS":"IP认证失败!","ZT":"0"}]
+INFO  2018-01-25 13:20:08,186 10513ms loginfo                Info               - [{"HPHM":"浙A12345","HPYS":"02","JGSJ":"2018-01-25 12:20:08","WFDD":"测试地点","WFLX":"违法停车","XZQH":"310600"},{"HPHM":"浙A12345","HPYS":"02","JGSJ":"2018-01-25 12:20:09","WFDD":"测试地点","WFLX":"违法停车","XZQH":"310600"}]
+INFO  2018-01-25 13:20:10,123 12450ms loginfo                Info               - [{"CWMS":"IP认证失败!","ZT":"0"}]
+INFO  2018-01-25 13:41:17,348    99ms loginfo                Info               - {"Condition":[{"LogicFlag":3,"QueryData":"2018-01-25 13:26:00","QueryType":8},{"LogicFlag":4,"QueryData":"2018-01-25 13:30:00","QueryType":8}],"ItemNum":2,"PageFirstRowNumber":0,"PageRowNum":200,"QueryCount":1}
+INFO  2018-01-25 13:48:24,137    93ms loginfo                Info               - {"Condition":[{"LogicFlag":3,"QueryData":"2018-01-25 13:26:00","QueryType":8},{"LogicFlag":4,"QueryData":"2018-01-25 13:37:00","QueryType":8}],"ItemNum":2,"PageFirstRowNumber":0,"PageRowNum":200,"QueryCount":1}
+INFO  2018-01-25 14:21:24,400   116ms loginfo                Info               - {"Condition":[{"LogicFlag":3,"QueryData":"2018-01-25 14:08:45","QueryType":8},{"LogicFlag":4,"QueryData":"2018-01-25 14:16:45","QueryType":8}],"ItemNum":2,"PageFirstRowNumber":0,"PageRowNum":200,"QueryCount":1}
+INFO  2018-01-25 16:26:40,927   156ms loginfo                Info               - 组织域加载完成,耗时:210毫秒
+INFO  2018-01-25 16:26:41,111   340ms loginfo                Info               - 单线程摄像机加载完成,耗时:112ms
+INFO  2018-01-25 17:03:06,515   202ms loginfo                Info               - 组织域加载完成,耗时:276毫秒
+INFO  2018-01-25 17:03:06,774   461ms loginfo                Info               - 单线程摄像机加载完成,耗时:150ms
+INFO  2018-01-25 17:07:40,089   190ms loginfo                Info               - 组织域加载完成,耗时:178毫秒
+INFO  2018-01-25 17:07:40,286   388ms loginfo                Info               - 单线程摄像机加载完成,耗时:122ms
+INFO  2018-01-25 17:10:00,682   228ms loginfo                Info               - 组织域加载完成,耗时:208毫秒
+INFO  2018-01-25 17:10:00,861   407ms loginfo                Info               - 单线程摄像机加载完成,耗时:74ms
+INFO  2018-01-27 21:51:05,148   161ms loginfo                Info               - 组织域加载完成,耗时:211毫秒
+INFO  2018-01-27 21:51:05,340   353ms loginfo                Info               - 摄像机加载完成,耗时:91ms
+INFO  2018-01-27 22:10:49,949    96ms loginfo                Info               - 组织域加载完成,耗时:73毫秒
+INFO  2018-01-27 22:10:50,029   176ms loginfo                Info               - 摄像机加载完成,耗时:39ms
+INFO  2018-01-27 22:13:11,296    98ms loginfo                Info               - 组织域加载完成,耗时:75毫秒
+INFO  2018-01-27 22:13:11,369   171ms loginfo                Info               - 摄像机加载完成,耗时:39ms
+INFO  2018-01-27 22:15:14,273    97ms loginfo                Info               - 组织域加载完成,耗时:89毫秒
+INFO  2018-01-27 22:20:48,854    91ms loginfo                Info               - 组织域加载完成,耗时:99毫秒
+INFO  2018-01-27 22:26:08,218 319454ms loginfo                Info               - 摄像机加载完成,耗时:319323ms
+INFO  2018-01-27 22:26:17,419   119ms loginfo                Info               - 组织域加载完成,耗时:94毫秒
+INFO  2018-01-27 22:27:09,072   100ms loginfo                Info               - 组织域加载完成,耗时:76毫秒
+INFO  2018-01-27 22:27:21,038 12065ms loginfo                Info               - 摄像机加载完成,耗时:11932ms

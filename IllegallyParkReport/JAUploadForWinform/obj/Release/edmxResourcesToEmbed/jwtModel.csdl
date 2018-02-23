@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="kkinfo">
+    <Key>
+      <PropertyRef Name="kkCode" />
+    </Key>
+    <Property Name="kkCode" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="kkName" Type="String" MaxLength="128" FixedLength="false" Unicode="false" />
+    <Property Name="startTime1" Type="DateTime" />
+    <Property Name="endTime1" Type="DateTime" />
+    <Property Name="startTime2" Type="DateTime" />
+    <Property Name="endTime2" Type="DateTime" />
+    <Property Name="startTime3" Type="DateTime" />
+    <Property Name="endTime3" Type="DateTime" />
+    <Property Name="createTime" Type="DateTime" Nullable="false" />
+    <Property Name="creator" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="dptCode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="dptName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="orgCode" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="orgName" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="tempDayStart" Type="DateTime" />
+    <Property Name="tempDayEnd" Type="DateTime" />
+    <Property Name="tempStartTime1" Type="DateTime" />
+    <Property Name="tempEndTime1" Type="DateTime" />
+    <Property Name="tempStartTime2" Type="DateTime" />
+    <Property Name="tempEndTime2" Type="DateTime" />
+    <Property Name="tempStartTime3" Type="DateTime" />
+    <Property Name="tempEndTime3" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="uploadfail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="kkcode" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="kkName" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="passTime" Type="DateTime" Nullable="false" />
+    <Property Name="hphm" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+    <Property Name="hpys" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="wfdd" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="wflx" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+    <Property Name="cjjg" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="dbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="kkinfo" EntityType="Self.kkinfo" />
+    <EntitySet Name="uploadfail" EntityType="Self.uploadfail" />
+  </EntityContainer>
+</Schema>

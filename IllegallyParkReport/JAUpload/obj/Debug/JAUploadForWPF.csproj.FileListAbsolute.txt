@@ -1,0 +1,74 @@
+C:\Users\eyecloud-fjw\documents\visual studio 2017\Projects\IllegallyParkReport\JAUpload\bin\Debug\JAUploadForWPF.exe.config
+C:\Users\eyecloud-fjw\documents\visual studio 2017\Projects\IllegallyParkReport\JAUpload\bin\Debug\JAUploadForWPF.exe
+C:\Users\eyecloud-fjw\documents\visual studio 2017\Projects\IllegallyParkReport\JAUpload\bin\Debug\JAUploadForWPF.pdb
+C:\Users\eyecloud-fjw\documents\visual studio 2017\Projects\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.csprojResolveAssemblyReference.cache
+C:\Users\eyecloud-fjw\documents\visual studio 2017\Projects\IllegallyParkReport\JAUpload\obj\Debug\MainWindow.g.cs
+C:\Users\eyecloud-fjw\documents\visual studio 2017\Projects\IllegallyParkReport\JAUpload\obj\Debug\App.g.cs
+C:\Users\eyecloud-fjw\documents\visual studio 2017\Projects\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF_MarkupCompile.cache
+C:\Users\eyecloud-fjw\documents\visual studio 2017\Projects\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF_MarkupCompile.lref
+C:\Users\eyecloud-fjw\documents\visual studio 2017\Projects\IllegallyParkReport\JAUpload\obj\Debug\MainWindow.baml
+C:\Users\eyecloud-fjw\documents\visual studio 2017\Projects\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.g.resources
+C:\Users\eyecloud-fjw\documents\visual studio 2017\Projects\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.Properties.Resources.resources
+C:\Users\eyecloud-fjw\documents\visual studio 2017\Projects\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.csproj.GenerateResource.Cache
+C:\Users\eyecloud-fjw\documents\visual studio 2017\Projects\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.csproj.CoreCompileInputs.cache
+C:\Users\eyecloud-fjw\documents\visual studio 2017\Projects\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.exe
+C:\Users\eyecloud-fjw\documents\visual studio 2017\Projects\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.pdb
+D:\mywork\outdoor\静安短信及违章上报\IllegallyParkReport\JAUpload\bin\Debug\JAUploadForWPF.exe.config
+D:\mywork\outdoor\静安短信及违章上报\IllegallyParkReport\JAUpload\bin\Debug\JAUploadForWPF.exe
+D:\mywork\outdoor\静安短信及违章上报\IllegallyParkReport\JAUpload\bin\Debug\JAUploadForWPF.pdb
+D:\mywork\outdoor\静安短信及违章上报\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.csprojResolveAssemblyReference.cache
+D:\mywork\outdoor\静安短信及违章上报\IllegallyParkReport\JAUpload\obj\Debug\MainWindow.g.cs
+D:\mywork\outdoor\静安短信及违章上报\IllegallyParkReport\JAUpload\obj\Debug\App.g.cs
+D:\mywork\outdoor\静安短信及违章上报\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF_MarkupCompile.cache
+D:\mywork\outdoor\静安短信及违章上报\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF_MarkupCompile.lref
+D:\mywork\outdoor\静安短信及违章上报\IllegallyParkReport\JAUpload\obj\Debug\MainWindow.baml
+D:\mywork\outdoor\静安短信及违章上报\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.g.resources
+D:\mywork\outdoor\静安短信及违章上报\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.Properties.Resources.resources
+D:\mywork\outdoor\静安短信及违章上报\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.csproj.GenerateResource.Cache
+D:\mywork\outdoor\静安短信及违章上报\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.csproj.CoreCompileInputs.cache
+D:\mywork\outdoor\静安短信及违章上报\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.exe
+D:\mywork\outdoor\静安短信及违章上报\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.pdb
+C:\fjw\codes\IllegallyParkReport\JAUpload\bin\Debug\JAUploadForWPF.exe.config
+C:\fjw\codes\IllegallyParkReport\JAUpload\bin\Debug\JAUploadForWPF.exe
+C:\fjw\codes\IllegallyParkReport\JAUpload\bin\Debug\JAUploadForWPF.pdb
+C:\fjw\codes\IllegallyParkReport\JAUpload\obj\Debug\MainWindow.g.cs
+C:\fjw\codes\IllegallyParkReport\JAUpload\obj\Debug\App.g.cs
+C:\fjw\codes\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF_MarkupCompile.cache
+C:\fjw\codes\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF_MarkupCompile.lref
+C:\fjw\codes\IllegallyParkReport\JAUpload\obj\Debug\MainWindow.baml
+C:\fjw\codes\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.g.resources
+C:\fjw\codes\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.Properties.Resources.resources
+C:\fjw\codes\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.csproj.GenerateResource.Cache
+C:\fjw\codes\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.csproj.CoreCompileInputs.cache
+C:\fjw\codes\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.exe
+C:\fjw\codes\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.pdb
+C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUpload\bin\Debug\JAUploadForWPF.exe.config
+C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUpload\bin\Debug\JAUploadForWPF.exe
+C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUpload\bin\Debug\JAUploadForWPF.pdb
+C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUpload\obj\Debug\MainWindow.g.cs
+C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUpload\obj\Debug\App.g.cs
+C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF_MarkupCompile.cache
+C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF_MarkupCompile.lref
+C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUpload\obj\Debug\MainWindow.baml
+C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.g.resources
+C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.Properties.Resources.resources
+C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.csproj.GenerateResource.Cache
+C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.csproj.CoreCompileInputs.cache
+C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.exe
+C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.pdb
+C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.csprojResolveAssemblyReference.cache
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\bin\Debug\JAUploadForWPF.exe.config
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\bin\Debug\JAUploadForWPF.exe
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\bin\Debug\JAUploadForWPF.pdb
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.csprojResolveAssemblyReference.cache
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Debug\MainWindow.g.cs
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Debug\App.g.cs
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF_MarkupCompile.cache
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF_MarkupCompile.lref
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Debug\MainWindow.baml
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.g.resources
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.Properties.Resources.resources
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.csproj.GenerateResource.Cache
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.csproj.CoreCompileInputs.cache
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.exe
+C:\Users\eyecloud-fjw\Downloads\IllegallyParkReport\JAUpload\obj\Debug\JAUploadForWPF.pdb

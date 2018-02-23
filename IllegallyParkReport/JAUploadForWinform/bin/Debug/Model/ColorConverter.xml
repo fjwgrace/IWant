@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<colors>
+  <color name="0" value="白色">00</color>
+  <color name="1" value="黄色">01</color>
+  <color name="2" value="蓝色">02</color>
+  <color name="3" value="黑色">03</color>
+</colors>

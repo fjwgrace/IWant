@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C1FD3CA1-6445-4B74-ABD9-3B2C034AC228}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>JAUploadForWinform</RootNamespace>
+    <AssemblyName>JAUploadForWinform</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>7f.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging, Version=3.3.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.3.3.1\lib\net40\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.3.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.Core.3.3.1\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=14.1.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.10.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.10\lib\net40\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.8.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.Entity.6.8.8\lib\net40\MySql.Data.Entity.EF6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Quartz, Version=2.6.0.0, Culture=neutral, PublicKeyToken=f6b8c98a402cc8a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Quartz.2.6.0\lib\net40\Quartz.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\AlarmManage.cs" />
+    <Compile Include="Business\CodeParse.cs" />
+    <Compile Include="Business\ColorConverter.cs" />
+    <Compile Include="Business\Common\Encrypt\DESEncrypt.cs" />
+    <Compile Include="Business\Common\HttpCode.cs" />
+    <Compile Include="Business\Common\HttpHelper.cs" />
+    <Compile Include="Business\Common\HttpWebRequestHelper.cs" />
+    <Compile Include="Business\Common\IpHelper.cs" />
+    <Compile Include="Business\Common\JSONHelper.cs" />
+    <Compile Include="Business\Common\LogHelper.cs" />
+    <Compile Include="Business\Common\Encrypt\MD5Util.cs" />
+    <Compile Include="Business\Common\NetHelper.cs" />
+    <Compile Include="Business\Common\RequestHelp.cs" />
+    <Compile Include="Business\Delegates.cs" />
+    <Compile Include="Business\IMOS.cs" />
+    <Compile Include="Business\QuartzManage.cs" />
+    <Compile Include="Business\RealTimeReportClient.cs" />
+    <Compile Include="Business\RequestGenerater.cs" />
+    <Compile Include="Business\ScreenManage.cs" />
+    <Compile Include="Business\TaskController.cs" />
+    <Compile Include="Business\TollgateFilterManage.cs" />
+    <Compile Include="Business\TreeManage.cs" />
+    <Compile Include="Control\CustomDatagridviewCheckboxHeaderCell.cs" />
+    <Compile Include="Control\PageNavControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\PageNavControl.Designer.cs">
+      <DependentUpon>PageNavControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\TreeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\TreeControl.Designer.cs">
+      <DependentUpon>TreeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jwtModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>jwtModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="jwtModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>jwtModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="jwtModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>jwtModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="kkinfo.cs">
+      <DependentUpon>jwtModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\JsonObject\AlarmInfoJson.cs" />
+    <Compile Include="Model\ApiUrls.cs" />
+    <Compile Include="Model\Camera.cs" />
+    <Compile Include="Model\JsonObject\AlarmResponseJson.cs" />
+    <Compile Include="Model\JsonObject\CommonQuery\CommonConditionJson.cs" />
+    <Compile Include="Model\JsonObject\CommonQuery\ConditionJson.cs" />
+    <Compile Include="Model\JsonObject\LoginJson.cs" />
+    <Compile Include="Model\JsonObject\NestConditionJson.cs" />
+    <Compile Include="Model\JsonObject\RealTimeReportJson.cs" />
+    <Compile Include="Model\JsonObject\ResConditionJson.cs" />
+    <Compile Include="Model\JsonObject\ResInfoJson.cs" />
+    <Compile Include="Model\JsonObject\ResItemJson.cs" />
+    <Compile Include="Model\JsonObject\ResponseErrorJson.cs" />
+    <Compile Include="Model\JsonObject\ResRespnoseJson.cs" />
+    <Compile Include="Model\JsonObject\RspPageInfoJson.cs" />
+    <Compile Include="Model\JsonObject\RspResultJson.cs" />
+    <Compile Include="Model\Organization.cs" />
+    <Compile Include="Model\ResourceItem.cs" />
+    <Compile Include="Model\TollgateFilter.cs" />
+    <Compile Include="Model\User.cs" />
+    <Compile Include="Presentation\Demo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Demo.Designer.cs">
+      <DependentUpon>Demo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\FailListSingle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\FailListSingle.Designer.cs">
+      <DependentUpon>FailListSingle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\FailListTotalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\FailListTotalForm.Designer.cs">
+      <DependentUpon>FailListTotalForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\SystemConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\SystemConfig.Designer.cs">
+      <DependentUpon>SystemConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\TaskConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\TaskConfigForm.Designer.cs">
+      <DependentUpon>TaskConfigForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\WaitingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\WaitingForm.Designer.cs">
+      <DependentUpon>WaitingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Control\TimeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\TimeControl.Designer.cs">
+      <DependentUpon>TimeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uploadfail.cs">
+      <DependentUpon>jwtModel.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Control\PageNavControl.resx">
+      <DependentUpon>PageNavControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\TreeControl.resx">
+      <DependentUpon>TreeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Demo.resx">
+      <DependentUpon>Demo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\FailListSingle.resx">
+      <DependentUpon>FailListSingle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\FailListTotalForm.resx">
+      <DependentUpon>FailListTotalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\SystemConfig.resx">
+      <DependentUpon>SystemConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\TaskConfigForm.resx">
+      <DependentUpon>TaskConfigForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\WaitingForm.resx">
+      <DependentUpon>WaitingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Control\TimeControl.resx">
+      <DependentUpon>TimeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="job_scheduling_data_2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="jwtModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>jwtModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="jwtModel.edmx.diagram">
+      <DependentUpon>jwtModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataAccess\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="7f.ico" />
+    <Content Include="jwtModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>jwtModel.edmx</DependentUpon>
+      <LastGenOutput>jwtModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="jwtModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>jwtModel.edmx</DependentUpon>
+      <LastGenOutput>jwtModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model\CollectList.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Model\ColorConverter.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\timgWI731B8K.jpg" />
+    <None Include="Resources\refresh-32.png" />
+    <None Include="Resources\add-32.png" />
+    <None Include="Resources\delete-32.png" />
+    <Content Include="Resources\DotNetBarBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

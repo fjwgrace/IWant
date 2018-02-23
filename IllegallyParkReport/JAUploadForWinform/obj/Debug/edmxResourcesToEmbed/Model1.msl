@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="jadatasyncModelStoreContainer" CdmEntityContainer="jadatasyncEntities">
+    <EntitySetMapping Name="kkinfo">
+      <EntityTypeMapping TypeName="jadatasyncModel.kkinfo">
+        <MappingFragment StoreEntitySet="kkinfo">
+          <ScalarProperty Name="kkCode" ColumnName="kkCode" />
+          <ScalarProperty Name="kkName" ColumnName="kkName" />
+          <ScalarProperty Name="startTime1" ColumnName="startTime1" />
+          <ScalarProperty Name="endTime1" ColumnName="endTime1" />
+          <ScalarProperty Name="startTime2" ColumnName="startTime2" />
+          <ScalarProperty Name="endTime2" ColumnName="endTime2" />
+          <ScalarProperty Name="startTime3" ColumnName="startTime3" />
+          <ScalarProperty Name="endTime3" ColumnName="endTime3" />
+          <ScalarProperty Name="createTime" ColumnName="createTime" />
+          <ScalarProperty Name="creator" ColumnName="creator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="uploadfail">
+      <EntityTypeMapping TypeName="jadatasyncModel.uploadfail">
+        <MappingFragment StoreEntitySet="uploadfail">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="kkcode" ColumnName="kkcode" />
+          <ScalarProperty Name="kkName" ColumnName="kkName" />
+          <ScalarProperty Name="passTime" ColumnName="passTime" />
+          <ScalarProperty Name="hphm" ColumnName="hphm" />
+          <ScalarProperty Name="hpys" ColumnName="hpys" />
+          <ScalarProperty Name="wfdd" ColumnName="wfdd" />
+          <ScalarProperty Name="wflx" ColumnName="wflx" />
+          <ScalarProperty Name="cjjg" ColumnName="cjjg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

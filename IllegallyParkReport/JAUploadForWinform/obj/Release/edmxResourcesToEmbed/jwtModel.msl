@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbModelStoreContainer" CdmEntityContainer="dbEntities">
+    <EntitySetMapping Name="kkinfo">
+      <EntityTypeMapping TypeName="dbModel.kkinfo">
+        <MappingFragment StoreEntitySet="kkinfo">
+          <ScalarProperty Name="tempEndTime3" ColumnName="tempEndTime3" />
+          <ScalarProperty Name="tempStartTime3" ColumnName="tempStartTime3" />
+          <ScalarProperty Name="tempEndTime2" ColumnName="tempEndTime2" />
+          <ScalarProperty Name="tempStartTime2" ColumnName="tempStartTime2" />
+          <ScalarProperty Name="tempEndTime1" ColumnName="tempEndTime1" />
+          <ScalarProperty Name="tempStartTime1" ColumnName="tempStartTime1" />
+          <ScalarProperty Name="tempDayEnd" ColumnName="tempDayEnd" />
+          <ScalarProperty Name="tempDayStart" ColumnName="tempDayStart" />
+          <ScalarProperty Name="orgName" ColumnName="orgName" />
+          <ScalarProperty Name="orgCode" ColumnName="orgCode" />
+          <ScalarProperty Name="kkCode" ColumnName="kkCode" />
+          <ScalarProperty Name="kkName" ColumnName="kkName" />
+          <ScalarProperty Name="startTime1" ColumnName="startTime1" />
+          <ScalarProperty Name="endTime1" ColumnName="endTime1" />
+          <ScalarProperty Name="startTime2" ColumnName="startTime2" />
+          <ScalarProperty Name="endTime2" ColumnName="endTime2" />
+          <ScalarProperty Name="startTime3" ColumnName="startTime3" />
+          <ScalarProperty Name="endTime3" ColumnName="endTime3" />
+          <ScalarProperty Name="createTime" ColumnName="createTime" />
+          <ScalarProperty Name="creator" ColumnName="creator" />
+          <ScalarProperty Name="dptCode" ColumnName="dptCode" />
+          <ScalarProperty Name="dptName" ColumnName="dptName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="uploadfail">
+      <EntityTypeMapping TypeName="dbModel.uploadfail">
+        <MappingFragment StoreEntitySet="uploadfail">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="kkcode" ColumnName="kkcode" />
+          <ScalarProperty Name="kkName" ColumnName="kkName" />
+          <ScalarProperty Name="passTime" ColumnName="passTime" />
+          <ScalarProperty Name="hphm" ColumnName="hphm" />
+          <ScalarProperty Name="hpys" ColumnName="hpys" />
+          <ScalarProperty Name="wfdd" ColumnName="wfdd" />
+          <ScalarProperty Name="wflx" ColumnName="wflx" />
+          <ScalarProperty Name="cjjg" ColumnName="cjjg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

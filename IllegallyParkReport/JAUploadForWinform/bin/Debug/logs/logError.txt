@@ -1,0 +1,66 @@
+ERROR 2018-01-24 15:57:39,683   263ms logerror               Error              - 退出登录失败，错误码0
+ERROR 2018-01-24 18:07:21,586   128ms logerror               Error              - 22CC29CB0D590278E8787C03E4F4AD265EC99B2059798A4E0B6A213914CB17E03F918E3F94C4C52A39E82D2BA0580537DF857FAB016487335565C6B51AFA931C8A1F08DDF25F3B9D15049C59EE577A11AEEA0BD3E19B6B28EE0558A2B54B57397294EE60F39BD47D853523AA749050368D031E22E269018BA1510D32F724FD3D68F3EA89821370AE325DA09D2554FE6E138CF0486291E548D91D14DBAE18AB3CC6A3D09E78715EAAA3BE2098CE23088C98F207742D76BF72F53AB4C4052A89C99591006FEB128C0124F30966AA2ABCC285B5564CE945D8532ABF86AE3EA5C4AE58C75D339286F01FD921C972D0D2E7F8CA6B76CD6089E119531E15C44571857954377C7E4CF283A4DB3AB631F19505FA
+ERROR 2018-01-24 18:09:00,372   139ms logerror               Error              - 22CC29CB0D590278E8787C03E4F4AD265EC99B2059798A4E0B6A213914CB17E03F918E3F94C4C52A39E82D2BA0580537DF857FAB016487335565C6B51AFA931C8A1F08DDF25F3B9D15049C59EE577A11F31A75283A1E9552EE0558A2B54B57397294EE60F39BD47D853523AA749050368D031E22E269018BA1510D32F724FD3D68F3EA89821370AE325DA09D2554FE6E138CF0486291E548D91D14DBAE18AB3CC6A3D09E78715EAAA3BE2098CE23088C98F207742D76BF72F53AB4C4052A89C99591006FEB128C0124F30966AA2ABCC285B5564CE945D8539677F3190356CCAE58C75D339286F01FD921C972D0D2E7F8CA6B76CD6089E119531E15C44571857954377C7E4CF283A4DB3AB631F19505FA
+ERROR 2018-01-24 18:09:03,440  3207ms logerror               Error              - 反序列化失败
+System.Runtime.Serialization.InvalidDataContractException: 无法序列化类型“JAUploadForWinform.Model.JsonObject.RealTimeReportResponseListJson”。请考虑将其标以 DataContractAttribute 特性，并将其所有要序列化的成员标以 DataMemberAttribute 特性。如果类型为集合，则请考虑将其标以 CollectionDataContractAttribute 特性。有关其他受支持的类型，请参见 Microsoft .NET Framework 文档。
+   在 System.Runtime.Serialization.DataContract.DataContractCriticalHelper.ThrowInvalidDataContractException(String message, Type type)
+   在 System.Runtime.Serialization.DataContract.DataContractCriticalHelper.CreateDataContract(Int32 id, RuntimeTypeHandle typeHandle, Type type)
+   在 System.Runtime.Serialization.DataContract.DataContractCriticalHelper.GetDataContractSkipValidation(Int32 id, RuntimeTypeHandle typeHandle, Type type)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.get_RootContract()
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalIsStartObject(XmlReaderDelegator reader)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+   在 System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader)
+   在 WiseMan.Business.Common.JSONHelper.JsonToObject[T](String json, Encoding encoding) 位置 C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUploadForWinform\Business\Common\JSONHelper.cs:行号 59
+ERROR 2018-01-24 18:09:03,492  3259ms logerror               Error              - 即时告知平台数据发送出错
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+   在 JAUploadForWinform.Business.RealTimeReportClient.SendToCenter() 位置 C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUploadForWinform\Business\RealTimeReportClient.cs:行号 158
+ERROR 2018-01-24 18:09:22,865 22632ms logerror               Error              - 22CC29CB0D590278E8787C03E4F4AD265EC99B2059798A4E0B6A213914CB17E03F918E3F94C4C52A39E82D2BA0580537DF857FAB016487335565C6B51AFA931C8A1F08DDF25F3B9D15049C59EE577A113422E415E329CEFBEE0558A2B54B57397294EE60F39BD47D853523AA749050368D031E22E269018BA1510D32F724FD3D68F3EA89821370AE325DA09D2554FE6E138CF0486291E548D91D14DBAE18AB3CC6A3D09E78715EAAA3BE2098CE23088C98F207742D76BF72F53AB4C4052A89C99591006FEB128C0124F30966AA2ABCC285B5564CE945D8533E706D827D1743BF58C75D339286F01FD921C972D0D2E7F8CA6B76CD6089E119531E15C44571857954377C7E4CF283A4DB3AB631F19505FA
+ERROR 2018-01-24 18:09:38,254 38021ms logerror               Error              - 反序列化失败
+System.Runtime.Serialization.InvalidDataContractException: 无法序列化类型“JAUploadForWinform.Model.JsonObject.RealTimeReportResponseListJson”。请考虑将其标以 DataContractAttribute 特性，并将其所有要序列化的成员标以 DataMemberAttribute 特性。如果类型为集合，则请考虑将其标以 CollectionDataContractAttribute 特性。有关其他受支持的类型，请参见 Microsoft .NET Framework 文档。
+   在 System.Runtime.Serialization.DataContract.DataContractCriticalHelper.ThrowInvalidDataContractException(String message, Type type)
+   在 System.Runtime.Serialization.DataContract.DataContractCriticalHelper.CreateDataContract(Int32 id, RuntimeTypeHandle typeHandle, Type type)
+   在 System.Runtime.Serialization.DataContract.DataContractCriticalHelper.GetDataContractSkipValidation(Int32 id, RuntimeTypeHandle typeHandle, Type type)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.get_RootContract()
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalIsStartObject(XmlReaderDelegator reader)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+   在 System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader)
+   在 WiseMan.Business.Common.JSONHelper.JsonToObject[T](String json, Encoding encoding) 位置 C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUploadForWinform\Business\Common\JSONHelper.cs:行号 59
+ERROR 2018-01-24 18:13:33,849   114ms logerror               Error              - 22CC29CB0D590278E8787C03E4F4AD265EC99B2059798A4E0B6A213914CB17E03F918E3F94C4C52A39E82D2BA0580537DF857FAB016487335565C6B51AFA931C8A1F08DDF25F3B9D15049C59EE577A1104E93C646A0D5ABEEE0558A2B54B57397294EE60F39BD47D853523AA749050368D031E22E269018BA1510D32F724FD3D68F3EA89821370AE325DA09D2554FE6E138CF0486291E548D91D14DBAE18AB3CC6A3D09E78715EAAA3BE2098CE23088C98F207742D76BF72F53AB4C4052A89C99591006FEB128C0124F30966AA2ABCC2A495EC9AD36B827D454951C09988607E58C75D339286F01FD921C972D0D2E7F8CA6B76CD6089E119531E15C44571857954377C7E4CF283A4DB3AB631F19505FA
+ERROR 2018-01-24 18:42:14,033   125ms logerror               Error              - 22CC29CB0D590278E8787C03E4F4AD265EC99B2059798A4E0B6A213914CB17E03F918E3F94C4C52A39E82D2BA0580537DF857FAB016487335565C6B51AFA931C8A1F08DDF25F3B9D15049C59EE577A113E14D278433FD3D3EE0558A2B54B57397294EE60F39BD47D853523AA749050368D031E22E269018BA1510D32F724FD3D68F3EA89821370AE325DA09D2554FE6E138CF0486291E548D91D14DBAE18AB3CC6A3D09E78715EAAA3BE2098CE23088C98F207742D76BF72F53AB4C4052A89C99591006FEB128C0124F30966AA2ABCC217EB65C0A50D16D832674E54A0A1589358C75D339286F01FD921C972D0D2E7F8CA6B76CD6089E119531E15C44571857954377C7E4CF283A4DB3AB631F19505FA
+ERROR 2018-01-25 13:19:57,848   175ms logerror               Error              - afd7757f42dd6aad0b6a213914cb17e03f918e3f94c4c52a2ecf196286ad06fe9591006feb128c0124f30966aa2abcc20617b159d20bdbdce2cdd3bd9368401258c75d339286f01fd921c972d0d2e7f8ca6b76cd6089e119531e15c44571857954377c7e4cf283a443f873bea0f6d696e8787c03e4f4ad26c55f1da68ec48a27d79e1ce82c53f7f035257c65e0876ba015c084b05195ee8c6fdb2cdc3601eba63690f542e3de2d9c00149e1a45a9d2d92d56d3241f2199d3b9bb49e1f83bedd402d404e5aa277abdae2afbaa6a10bd0455a56ac1cb0da84939c6a8effe4f50d1c8a1cadb3822f5ce7f484400827a69cc662252cbde027e5f
+ERROR 2018-01-25 13:20:08,192 10520ms logerror               Error              - afd7757f42dd6aad0b6a213914cb17e03f918e3f94c4c52a2ecf196286ad06fe9591006feb128c0124f30966aa2abcc20dc8c042833e9569002b78a1d501d6eb58c75d339286f01fd921c972d0d2e7f8ca6b76cd6089e119531e15c44571857954377c7e4cf283a443f873bea0f6d696e8787c03e4f4ad26c55f1da68ec48a27d79e1ce82c53f7f035257c65e0876ba015c084b05195ee8c6fdb2cdc3601eba63690f542e3de2d9c00149e1a45a9d2d9bf12ee79ff1e3820b9bb49e1f83bedd402d404e5aa277abdae2afbaa6a10bd0455a56ac1cb0da84939c6a8effe4f50d1c8a1cadb3822f5ce7f484400827a69cc662252cbde027e5f
+ERROR 2018-01-25 17:04:12,069 65756ms logerror               Error              - 新增失败
+System.Data.Entity.Infrastructure.DbUpdateException: 更新条目时出错。有关详细信息，请参阅内部异常。 ---> System.Data.Entity.Core.UpdateException: 更新条目时出错。有关详细信息，请参阅内部异常。 ---> MySql.Data.MySqlClient.MySqlException: Duplicate entry '4-104' for key 'PRIMARY'
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TInterceptionContext,TResult](Func`1 operation, TInterceptionContext interceptionContext, Action`1 executing, Action`1 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 JAUploadForWinform.Business.TollgateFilterManage.AddFilters(List`1 filters) 位置 C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUploadForWinform\Business\TollgateFilterManage.cs:行号 62
+   在 JAUploadForWinform.MainForm.btnAdd_Click(Object sender, EventArgs e) 位置 C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUploadForWinform\Presentation\MainForm.cs:行号 190
+ERROR 2018-01-25 17:39:03,318   187ms logerror               Error              - 退出登录失败，错误码0
+ERROR 2018-01-27 22:11:35,201 45348ms logerror               Error              - Quartz 任务停止失败
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 JAUploadForWinform.Business.QuartzManage.ShutDownTask() 位置 C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUploadForWinform\Business\QuartzManage.cs:行号 54
+ERROR 2018-01-27 22:11:35,293 45440ms logerror               Error              - 退出登录失败，错误码0
+ERROR 2018-01-27 22:28:15,570 66597ms logerror               Error              - Quartz 任务停止失败
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 JAUploadForWinform.Business.QuartzManage.ShutDownTask() 位置 C:\Users\eyecloud-fjw\Downloads\本地版本\IllegallyParkReport\JAUploadForWinform\Business\QuartzManage.cs:行号 54
+ERROR 2018-01-27 22:28:15,656 66683ms logerror               Error              - 退出登录失败，错误码0

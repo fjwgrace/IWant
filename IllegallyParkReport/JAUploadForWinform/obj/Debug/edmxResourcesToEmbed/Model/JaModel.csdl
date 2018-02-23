@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="jadatasyncModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="kkinfo">
+    <Key>
+      <PropertyRef Name="kkCode" />
+    </Key>
+    <Property Name="kkCode" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="kkName" Type="String" MaxLength="128" FixedLength="false" Unicode="false" />
+    <Property Name="startTime1" Type="DateTime" />
+    <Property Name="endTime1" Type="DateTime" />
+    <Property Name="startTime2" Type="DateTime" />
+    <Property Name="endTime2" Type="DateTime" />
+    <Property Name="startTime3" Type="DateTime" />
+    <Property Name="endtime3" Type="DateTime" />
+    <Property Name="createTime" Type="DateTime" />
+    <Property Name="creator" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="uploadfail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="kkcode" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="kkName" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="passTime" Type="DateTime" Nullable="false" />
+    <Property Name="hphm" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+    <Property Name="hpys" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="wfdd" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="wflx" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+    <Property Name="cjjg" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="jadatasyncEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="kkinfo" EntityType="Self.kkinfo" />
+    <EntitySet Name="uploadfail" EntityType="Self.uploadfail" />
+  </EntityContainer>
+</Schema>

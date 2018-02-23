@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<collections>
+  <item value="310100">黄埔支队</item>
+  <item value="310400">徐汇支队</item>
+  <item value="310500">长宁支队</item>
+  <item value="310600">静安支队</item>
+  <item value="310700">普陀支队</item>
+  <item value="310900">虹口支队</item>
+  <item value="311000">杨浦支队</item>
+  <item value="311200">闵行支队</item>
+  <item value="311300">宝山支队</item>
+  <item value="311400">嘉定支队</item>
+  <item value="311500">浦东支队</item>
+  <item value="311600">金山支队</item>
+  <item value="311700">松江支队</item>
+  <item value="311800">青浦支队</item>
+  <item value="312000">奉贤支队</item>
+  <item value="313000">崇明支队</item>
+  <item value="315100">水上支队</item>
+  <item value="315200">轨道支队</item>
+</collections>

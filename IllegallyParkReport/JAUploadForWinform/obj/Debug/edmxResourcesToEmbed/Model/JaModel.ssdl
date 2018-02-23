@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="jadatasyncModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.7" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="kkinfo">
+    <Key>
+      <PropertyRef Name="kkCode" />
+    </Key>
+    <Property Name="kkCode" Type="varchar" MaxLength="128" Nullable="false" />
+    <Property Name="kkName" Type="varchar" MaxLength="128" />
+    <Property Name="startTime1" Type="datetime" Precision="0" />
+    <Property Name="endTime1" Type="datetime" Precision="0" />
+    <Property Name="startTime2" Type="datetime" Precision="0" />
+    <Property Name="endTime2" Type="datetime" Precision="0" />
+    <Property Name="startTime3" Type="datetime" Precision="0" />
+    <Property Name="endtime3" Type="datetime" Precision="0" />
+    <Property Name="createTime" Type="datetime" Precision="0" />
+    <Property Name="creator" Type="varchar" MaxLength="64" />
+  </EntityType>
+  <EntityType Name="uploadfail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="uint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="kkcode" Type="varchar" MaxLength="128" Nullable="false" />
+    <Property Name="kkName" Type="varchar" MaxLength="128" Nullable="false" />
+    <Property Name="passTime" Type="datetime" Precision="0" Nullable="false" />
+    <Property Name="hphm" Type="varchar" MaxLength="16" />
+    <Property Name="hpys" Type="varchar" MaxLength="10" />
+    <Property Name="wfdd" Type="varchar" MaxLength="40" />
+    <Property Name="wflx" Type="varchar" MaxLength="16" />
+    <Property Name="cjjg" Type="varchar" MaxLength="16" />
+  </EntityType>
+  <EntityContainer Name="jadatasyncModelStoreContainer">
+    <EntitySet Name="kkinfo" EntityType="Self.kkinfo" Schema="jadatasync" store:Type="Tables" />
+    <EntitySet Name="uploadfail" EntityType="Self.uploadfail" Schema="jadatasync" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
